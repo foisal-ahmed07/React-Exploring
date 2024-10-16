@@ -1,5 +1,6 @@
 export default function User(user) {
-    const {name, email} = user
+  console.log(user);
+  const { name, email } = user;
   return (
     <div>
       <h3>Name: {name}</h3>
